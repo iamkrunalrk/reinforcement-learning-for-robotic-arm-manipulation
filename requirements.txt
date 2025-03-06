@@ -1,0 +1,9 @@
+gym~=0.23.0
+pybullet==3.2.6
+matplotlib
+tensorboard
+termcolor==2.4.0
+h5py==3.10.0
+numpy~=1.22.3
+robosuite
+gymnasium
