@@ -24,7 +24,7 @@ The goal of this project is to develop an RL-based agent capable of opening a do
 
 ## Overview
 
-This project uses the **Robosuite** simulator to simulate a robotic manipulator performing the task of opening a door. Robosuite is a simulation framework built on top of MuJoCo that allows easy configuration of robotic environments. The project employs **reinforcement learning** (RL) techniques to train a robotic agent to learn how to perform this task autonomously.
+This project uses the **Robosuite** simulator to simulate a robotic manipulator performing the task of opening a door. Robosuite is a simulation framework built on top of MuJoCo that allows easy configuration of robotic environments. The project employs **reinforcement learning** (RL) techniques to train a robotic arm to learn how to perform this task autonomously.
 
 The main focus of this repository is on the **TD3 (Twin Delayed Deep Deterministic Policy Gradient)** algorithm, which has been successfully trained to achieve the goal. However, other algorithms like **PPO (Proximal Policy Optimization)** and **SAC (Soft Actor-Critic)** are also included in the code but have not been thoroughly tested for the door-opening task.
 
@@ -37,8 +37,8 @@ To get started with the project, clone this repository and install the required 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/iamkrunalrk/rl-robotic-arm.git
-cd robosuite_door
+git clone https://github.com/iamkrunalrk/Reinforcement-Learning-Robotic-Arm.git
+cd Reinforcement-Learning-Robotic-Arm
 ```
 
 ### 2. Install Dependencies
@@ -120,25 +120,6 @@ PPO is another on-policy reinforcement learning algorithm. It is known for its s
 ### 3. **SAC (Soft Actor-Critic)**
 
 SAC is an off-policy actor-critic algorithm that optimizes both the policy and value function. Like TD3, SAC is designed for continuous action spaces. The implementation here has not been thoroughly tested either.
-
----
-
-## Directory Structure
-
-Here's an overview of the main directories and files in the repository:
-
-```
-robosuite_door/
-├── TD3/                   # Contains the implementation of TD3 algorithm
-│   ├── main.py            # Main script to train the agent with TD3
-│   ├── agent.py           # Contains the agent class for TD3
-│   └── model.py           # Contains the model architecture
-├── tmp/                   # Temporary files, e.g., for saving models
-├── logs/                  # Logs for training (TensorBoard compatible)
-├── test.py                # Script to test the trained model
-├── requirements.txt       # List of dependencies to install
-└── README.md              # Project documentation (this file)
-```
 
 ---
 
