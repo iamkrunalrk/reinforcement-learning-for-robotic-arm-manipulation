@@ -14,11 +14,8 @@ The goal of this project is to develop an RL-based agent capable of opening a do
     - [Training the Agent](#training-the-agent)
     - [Testing the Agent](#testing-the-agent)
 4. [Algorithms Implemented](#algorithms-implemented)
-5. [Directory Structure](#directory-structure)
-6. [Environment Setup](#environment-setup)
-7. [Troubleshooting](#troubleshooting)
-8. [About](#about)
-9. [Acknowledgments](#acknowledgments)
+5. [Environment Setup](#environment-setup)
+6. [About](#about)
 
 ---
 
