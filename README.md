@@ -1,4 +1,5 @@
-# Robotic Arm RL Implementation for Door Opening
+# Hierarchical Reinforcement Learning for Robotic Manipulation
+
 
 This repository contains the code to train a robotic arm to open a door in the Robosuite environment using reinforcement learning (RL) techniques.
 
